@@ -1,0 +1,9 @@
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\obj\Debug\net8.0\CustomerAPI.csproj.AssemblyReference.cache
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\obj\Debug\net8.0\CustomerAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\obj\Debug\net8.0\CustomerAPI.AssemblyInfoInputs.cache
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\obj\Debug\net8.0\CustomerAPI.AssemblyInfo.cs
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\obj\Debug\net8.0\CustomerAPI.csproj.CoreCompileInputs.cache
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\obj\Debug\net8.0\CustomerAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\obj\Debug\net8.0\CustomerAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\obj\Debug\net8.0\CustomerAPI.sourcelink.json
