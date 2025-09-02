@@ -11,6 +11,7 @@
         public decimal TotalAmount { get; set; }
 
         public List<OrderItem> OrderItems { get; set; }
+        public Address ShippingAddress { get; set; }
 
         public void AddOrderItem(OrderItem item)
         {
