@@ -21,6 +21,5 @@ namespace CustomerAPI.Services
             return true;
         }
     }
-    {
-    }
+   
 }
