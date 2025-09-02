@@ -6,7 +6,7 @@ namespace ProductAPI.Data
     public class ProductDBContext : DbContext
     {
         //fields
-
+        private string _maxLength="100";
         //constructors
         public ProductDBContext(DbContextOptions<ProductDBContext> options) : base(options)
         {
@@ -21,6 +21,15 @@ namespace ProductAPI.Data
         {
             //Configuraciones avanzadas de las entidades    
 
+            modelBuilder.Entity<Product>(entity =>
+            {
+                entity.Property(e => e.Name)
+                      .IsRequired()
+                      .HasMaxLength(int.Parse(_maxLength));
+                entity.Property(e => e.Description)
+                      .IsRequired()
+                      .HasMaxLength(int.Parse(_maxLength));
+            });
             base.OnModelCreating(modelBuilder);
         }
     }
