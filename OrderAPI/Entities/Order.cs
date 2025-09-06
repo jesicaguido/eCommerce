@@ -22,6 +22,7 @@
             _orderItems.Add(item);
             TotalAmount += item.UnitPrice + item.Quantity;
         }
+        //
 
         public void RemoveOrderItem(OrderItem item)
         {
