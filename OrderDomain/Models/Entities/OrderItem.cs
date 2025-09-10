@@ -2,7 +2,7 @@
 
 namespace OrderDomain.Models.Entities
 {
-    public class OrderItem : OrderEntity
+    public class OrderItem : OrderAggregate
     {
               
         public string Name { get; set; }

@@ -4,7 +4,7 @@ using OrderDomain.Models.ValueObjects;
 namespace OrderDomain.Models.Entities
 {
     //Agregado
-    public class Order : OrderEntity
+    public class Order : OrderAggregate
     {
         //Field
         private List<OrderItem> _orderItems= new List<OrderItem>();
