@@ -174,3 +174,5 @@ C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\obj\Debug\net8.0\refint\CustomerAPI
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\obj\Debug\net8.0\CustomerAPI.pdb
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\obj\Debug\net8.0\CustomerAPI.genruntimeconfig.cache
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\obj\Debug\net8.0\ref\CustomerAPI.dll
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\bin\Debug\net8.0\CustomerCore.dll
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\bin\Debug\net8.0\CustomerCore.pdb

@@ -1,8 +1,10 @@
-﻿namespace OrderDomain.Models.Entities
+﻿using OrderCore;
+
+namespace OrderDomain.Models.Entities
 {
-    public class Product
+    public class Product :OrderEntity
     {
-        public int ID { get; set; }
+        
         public string Name { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }

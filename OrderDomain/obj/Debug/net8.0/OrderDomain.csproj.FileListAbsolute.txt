@@ -10,3 +10,7 @@ C:\AppWeb\CarpetaFinal\eCommerce\OrderDomain\obj\Debug\net8.0\OrderDomain.dll
 C:\AppWeb\CarpetaFinal\eCommerce\OrderDomain\obj\Debug\net8.0\refint\OrderDomain.dll
 C:\AppWeb\CarpetaFinal\eCommerce\OrderDomain\obj\Debug\net8.0\OrderDomain.pdb
 C:\AppWeb\CarpetaFinal\eCommerce\OrderDomain\obj\Debug\net8.0\ref\OrderDomain.dll
+C:\AppWeb\CarpetaFinal\eCommerce\OrderDomain\obj\Debug\net8.0\OrderDomain.csproj.AssemblyReference.cache
+C:\AppWeb\CarpetaFinal\eCommerce\OrderDomain\bin\Debug\net8.0\OrderCore.dll
+C:\AppWeb\CarpetaFinal\eCommerce\OrderDomain\bin\Debug\net8.0\OrderCore.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\OrderDomain\obj\Debug\net8.0\OrderDom.3419C47C.Up2Date

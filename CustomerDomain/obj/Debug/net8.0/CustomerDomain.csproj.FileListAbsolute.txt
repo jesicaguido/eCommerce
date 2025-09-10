@@ -10,3 +10,7 @@ C:\AppWeb\CarpetaFinal\eCommerce\CustomerDomain\obj\Debug\net8.0\CustomerDomain.
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerDomain\obj\Debug\net8.0\refint\CustomerDomain.dll
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerDomain\obj\Debug\net8.0\CustomerDomain.pdb
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerDomain\obj\Debug\net8.0\ref\CustomerDomain.dll
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerDomain\bin\Debug\net8.0\CustomerCore.dll
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerDomain\bin\Debug\net8.0\CustomerCore.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerDomain\obj\Debug\net8.0\CustomerDomain.csproj.AssemblyReference.cache
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerDomain\obj\Debug\net8.0\Customer.F0E9DAEB.Up2Date

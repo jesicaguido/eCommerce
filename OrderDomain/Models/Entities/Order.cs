@@ -1,11 +1,14 @@
-﻿namespace OrderDomain.Models.Entities
+﻿using OrderCore;
+using OrderDomain.Models.ValueObjects;
+
+namespace OrderDomain.Models.Entities
 {
     //Agregado
-    public class Order
+    public class Order : OrderEntity
     {
         //Field
         private List<OrderItem> _orderItems= new List<OrderItem>();
-        public int ID { get; set; }
+        
         public int CustomerID { get; set; }
         public DateTime OrderDate { get; set; }
         public decimal TotalAmount { get; set; }
@@ -26,7 +29,7 @@
 
         public void RemoveOrderItem(OrderItem item)
         {
-            var existingItem = _orderItems.FirstOrDefault(i => i.ID == item.ID);
+            var existingItem = _orderItems.FirstOrDefault(i => i.Id == item.Id);
             if (existingItem!=null)
             {
                 _orderItems.Remove(item);

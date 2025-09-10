@@ -1,8 +1,10 @@
-﻿namespace OrderDomain.Models.Entities
+﻿using OrderCore;
+
+namespace OrderDomain.Models.Entities
 {
-    public class OrderItem
+    public class OrderItem : OrderEntity
     {
-        public int ID { get; set; }        
+              
         public string Name { get; set; }
         public int Quantity { get; set; }
         public decimal UnitPrice { get; set; }

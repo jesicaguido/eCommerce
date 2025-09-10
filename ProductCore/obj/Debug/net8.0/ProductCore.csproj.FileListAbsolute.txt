@@ -1,0 +1,12 @@
+C:\AppWeb\CarpetaFinal\eCommerce\ProductCore\bin\Debug\net8.0\ProductCore.deps.json
+C:\AppWeb\CarpetaFinal\eCommerce\ProductCore\bin\Debug\net8.0\ProductCore.dll
+C:\AppWeb\CarpetaFinal\eCommerce\ProductCore\bin\Debug\net8.0\ProductCore.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\ProductCore\obj\Debug\net8.0\ProductCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\AppWeb\CarpetaFinal\eCommerce\ProductCore\obj\Debug\net8.0\ProductCore.AssemblyInfoInputs.cache
+C:\AppWeb\CarpetaFinal\eCommerce\ProductCore\obj\Debug\net8.0\ProductCore.AssemblyInfo.cs
+C:\AppWeb\CarpetaFinal\eCommerce\ProductCore\obj\Debug\net8.0\ProductCore.csproj.CoreCompileInputs.cache
+C:\AppWeb\CarpetaFinal\eCommerce\ProductCore\obj\Debug\net8.0\ProductCore.sourcelink.json
+C:\AppWeb\CarpetaFinal\eCommerce\ProductCore\obj\Debug\net8.0\ProductCore.dll
+C:\AppWeb\CarpetaFinal\eCommerce\ProductCore\obj\Debug\net8.0\refint\ProductCore.dll
+C:\AppWeb\CarpetaFinal\eCommerce\ProductCore\obj\Debug\net8.0\ProductCore.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\ProductCore\obj\Debug\net8.0\ref\ProductCore.dll

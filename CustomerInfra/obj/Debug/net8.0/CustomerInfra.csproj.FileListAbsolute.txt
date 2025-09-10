@@ -16,3 +16,5 @@ C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\obj\Debug\net8.0\refint\CustomerI
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\obj\Debug\net8.0\CustomerInfra.pdb
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\obj\Debug\net8.0\CustomerInfra.genruntimeconfig.cache
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\obj\Debug\net8.0\ref\CustomerInfra.dll
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\bin\Debug\net8.0\CustomerCore.dll
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\bin\Debug\net8.0\CustomerCore.pdb

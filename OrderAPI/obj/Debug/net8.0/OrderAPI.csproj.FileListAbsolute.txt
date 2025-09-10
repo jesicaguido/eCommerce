@@ -174,3 +174,5 @@ C:\AppWeb\CarpetaFinal\eCommerce\OrderAPI\obj\Debug\net8.0\refint\OrderAPI.dll
 C:\AppWeb\CarpetaFinal\eCommerce\OrderAPI\obj\Debug\net8.0\OrderAPI.pdb
 C:\AppWeb\CarpetaFinal\eCommerce\OrderAPI\obj\Debug\net8.0\OrderAPI.genruntimeconfig.cache
 C:\AppWeb\CarpetaFinal\eCommerce\OrderAPI\obj\Debug\net8.0\ref\OrderAPI.dll
+C:\AppWeb\CarpetaFinal\eCommerce\OrderAPI\bin\Debug\net8.0\OrderCore.dll
+C:\AppWeb\CarpetaFinal\eCommerce\OrderAPI\bin\Debug\net8.0\OrderCore.pdb

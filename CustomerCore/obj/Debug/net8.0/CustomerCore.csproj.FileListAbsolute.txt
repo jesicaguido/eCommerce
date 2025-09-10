@@ -1,0 +1,12 @@
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerCore\bin\Debug\net8.0\CustomerCore.deps.json
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerCore\bin\Debug\net8.0\CustomerCore.dll
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerCore\bin\Debug\net8.0\CustomerCore.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerCore\obj\Debug\net8.0\CustomerCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerCore\obj\Debug\net8.0\CustomerCore.AssemblyInfoInputs.cache
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerCore\obj\Debug\net8.0\CustomerCore.AssemblyInfo.cs
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerCore\obj\Debug\net8.0\CustomerCore.csproj.CoreCompileInputs.cache
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerCore\obj\Debug\net8.0\CustomerCore.sourcelink.json
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerCore\obj\Debug\net8.0\CustomerCore.dll
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerCore\obj\Debug\net8.0\refint\CustomerCore.dll
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerCore\obj\Debug\net8.0\CustomerCore.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerCore\obj\Debug\net8.0\ref\CustomerCore.dll

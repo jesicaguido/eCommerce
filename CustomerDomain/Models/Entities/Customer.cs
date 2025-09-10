@@ -1,8 +1,9 @@
-﻿namespace CustomerDomain.Models.Entities
+﻿using CustomerCore;
+
+namespace CustomerDomain.Models.Entities
 {
-    public class Customer
-    {
-        public int ID { get; set; }
+    public class Customer :CustomerEntity
+    {        
         public string Name { get; set; }
         public string Email { get; set; }
         public string Direccion { get; set; }
