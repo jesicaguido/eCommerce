@@ -1,6 +1,6 @@
 ﻿namespace CustomerAPI.Interfaces
 {
-    public interface ICustomer
+    public interface ICustomerRepository
     {
         public bool AddCustomer(string name);
         public bool RemoveCustomer(int id); 

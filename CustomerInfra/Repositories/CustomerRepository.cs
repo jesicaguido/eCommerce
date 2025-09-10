@@ -2,7 +2,7 @@
 
 namespace CustomerAPI.Services
 {
-    public class CustomerRepository : ICustomer
+    public class CustomerRepository : ICustomerRepository
     {
         public bool AddCustomer(string name)
         {

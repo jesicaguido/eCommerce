@@ -2,7 +2,7 @@
 
 namespace OrderAPI.Services
 {
-    public class OrderRepository : IOrder
+    public class OrderRepository : IOrderRepository
     {
         public bool AddOrder(string description)
         {

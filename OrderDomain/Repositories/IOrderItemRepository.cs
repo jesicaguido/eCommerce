@@ -1,6 +1,6 @@
 ﻿namespace OrderAPI.Interfaces
 {
-    public interface IOrderItem
+    public interface IOrderItemRepository
     {
         public bool AddOrderItem(int orderId, string itemName, int quantity);
         public bool RemoveOrderItem(int orderItemId);

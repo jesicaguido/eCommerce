@@ -1,6 +1,6 @@
 ﻿namespace OrderAPI.Interfaces
 {
-    public interface IOrder
+    public interface IOrderRepository
     {
         public bool AddOrder(string description);
         public bool RemoveOrder(int id); 

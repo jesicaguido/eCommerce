@@ -1,6 +1,6 @@
 ﻿namespace ProductAPI.Interfaces
 {
-    public interface IDBProduct
+    public interface IProductRepository
     {
         public bool AddProduct(string name);
 
