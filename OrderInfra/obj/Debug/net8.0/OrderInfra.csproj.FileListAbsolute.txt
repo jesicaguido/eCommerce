@@ -1,0 +1,16 @@
+C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\bin\Debug\net8.0\OrderInfra.deps.json
+C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\bin\Debug\net8.0\OrderInfra.dll
+C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\bin\Debug\net8.0\OrderInfra.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\bin\Debug\net8.0\OrderDomain.dll
+C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\bin\Debug\net8.0\OrderDomain.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\obj\Debug\net8.0\OrderInfra.csproj.AssemblyReference.cache
+C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\obj\Debug\net8.0\OrderInfra.GeneratedMSBuildEditorConfig.editorconfig
+C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\obj\Debug\net8.0\OrderInfra.AssemblyInfoInputs.cache
+C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\obj\Debug\net8.0\OrderInfra.AssemblyInfo.cs
+C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\obj\Debug\net8.0\OrderInfra.csproj.CoreCompileInputs.cache
+C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\obj\Debug\net8.0\OrderInfra.sourcelink.json
+C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\obj\Debug\net8.0\OrderInfra.csproj.Up2Date
+C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\obj\Debug\net8.0\OrderInfra.dll
+C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\obj\Debug\net8.0\refint\OrderInfra.dll
+C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\obj\Debug\net8.0\OrderInfra.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\obj\Debug\net8.0\ref\OrderInfra.dll

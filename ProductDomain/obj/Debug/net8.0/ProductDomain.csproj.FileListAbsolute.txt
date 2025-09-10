@@ -1,0 +1,12 @@
+C:\AppWeb\CarpetaFinal\eCommerce\ProductDomain\bin\Debug\net8.0\ProductDomain.deps.json
+C:\AppWeb\CarpetaFinal\eCommerce\ProductDomain\bin\Debug\net8.0\ProductDomain.dll
+C:\AppWeb\CarpetaFinal\eCommerce\ProductDomain\bin\Debug\net8.0\ProductDomain.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\ProductDomain\obj\Debug\net8.0\ProductDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\AppWeb\CarpetaFinal\eCommerce\ProductDomain\obj\Debug\net8.0\ProductDomain.AssemblyInfoInputs.cache
+C:\AppWeb\CarpetaFinal\eCommerce\ProductDomain\obj\Debug\net8.0\ProductDomain.AssemblyInfo.cs
+C:\AppWeb\CarpetaFinal\eCommerce\ProductDomain\obj\Debug\net8.0\ProductDomain.csproj.CoreCompileInputs.cache
+C:\AppWeb\CarpetaFinal\eCommerce\ProductDomain\obj\Debug\net8.0\ProductDomain.sourcelink.json
+C:\AppWeb\CarpetaFinal\eCommerce\ProductDomain\obj\Debug\net8.0\ProductDomain.dll
+C:\AppWeb\CarpetaFinal\eCommerce\ProductDomain\obj\Debug\net8.0\refint\ProductDomain.dll
+C:\AppWeb\CarpetaFinal\eCommerce\ProductDomain\obj\Debug\net8.0\ProductDomain.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\ProductDomain\obj\Debug\net8.0\ref\ProductDomain.dll

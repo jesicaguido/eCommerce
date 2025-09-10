@@ -1,0 +1,16 @@
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\bin\Debug\net8.0\CustomerInfra.deps.json
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\bin\Debug\net8.0\CustomerInfra.dll
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\bin\Debug\net8.0\CustomerInfra.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\bin\Debug\net8.0\CustomerDomain.dll
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\bin\Debug\net8.0\CustomerDomain.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\obj\Debug\net8.0\CustomerInfra.csproj.AssemblyReference.cache
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\obj\Debug\net8.0\CustomerInfra.GeneratedMSBuildEditorConfig.editorconfig
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\obj\Debug\net8.0\CustomerInfra.AssemblyInfoInputs.cache
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\obj\Debug\net8.0\CustomerInfra.AssemblyInfo.cs
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\obj\Debug\net8.0\CustomerInfra.csproj.CoreCompileInputs.cache
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\obj\Debug\net8.0\CustomerInfra.sourcelink.json
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\obj\Debug\net8.0\Customer.6067D65C.Up2Date
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\obj\Debug\net8.0\CustomerInfra.dll
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\obj\Debug\net8.0\refint\CustomerInfra.dll
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\obj\Debug\net8.0\CustomerInfra.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\obj\Debug\net8.0\ref\CustomerInfra.dll

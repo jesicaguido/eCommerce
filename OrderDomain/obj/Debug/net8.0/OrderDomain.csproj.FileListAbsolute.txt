@@ -1,0 +1,12 @@
+C:\AppWeb\CarpetaFinal\eCommerce\OrderDomain\bin\Debug\net8.0\OrderDomain.deps.json
+C:\AppWeb\CarpetaFinal\eCommerce\OrderDomain\bin\Debug\net8.0\OrderDomain.dll
+C:\AppWeb\CarpetaFinal\eCommerce\OrderDomain\bin\Debug\net8.0\OrderDomain.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\OrderDomain\obj\Debug\net8.0\OrderDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\AppWeb\CarpetaFinal\eCommerce\OrderDomain\obj\Debug\net8.0\OrderDomain.AssemblyInfoInputs.cache
+C:\AppWeb\CarpetaFinal\eCommerce\OrderDomain\obj\Debug\net8.0\OrderDomain.AssemblyInfo.cs
+C:\AppWeb\CarpetaFinal\eCommerce\OrderDomain\obj\Debug\net8.0\OrderDomain.csproj.CoreCompileInputs.cache
+C:\AppWeb\CarpetaFinal\eCommerce\OrderDomain\obj\Debug\net8.0\OrderDomain.sourcelink.json
+C:\AppWeb\CarpetaFinal\eCommerce\OrderDomain\obj\Debug\net8.0\OrderDomain.dll
+C:\AppWeb\CarpetaFinal\eCommerce\OrderDomain\obj\Debug\net8.0\refint\OrderDomain.dll
+C:\AppWeb\CarpetaFinal\eCommerce\OrderDomain\obj\Debug\net8.0\OrderDomain.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\OrderDomain\obj\Debug\net8.0\ref\OrderDomain.dll

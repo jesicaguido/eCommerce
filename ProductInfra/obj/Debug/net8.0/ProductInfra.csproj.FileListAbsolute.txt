@@ -1,0 +1,16 @@
+C:\AppWeb\CarpetaFinal\eCommerce\ProductInfra\bin\Debug\net8.0\ProductInfra.deps.json
+C:\AppWeb\CarpetaFinal\eCommerce\ProductInfra\bin\Debug\net8.0\ProductInfra.dll
+C:\AppWeb\CarpetaFinal\eCommerce\ProductInfra\bin\Debug\net8.0\ProductInfra.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\ProductInfra\bin\Debug\net8.0\ProductDomain.dll
+C:\AppWeb\CarpetaFinal\eCommerce\ProductInfra\bin\Debug\net8.0\ProductDomain.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\ProductInfra\obj\Debug\net8.0\ProductInfra.csproj.AssemblyReference.cache
+C:\AppWeb\CarpetaFinal\eCommerce\ProductInfra\obj\Debug\net8.0\ProductInfra.GeneratedMSBuildEditorConfig.editorconfig
+C:\AppWeb\CarpetaFinal\eCommerce\ProductInfra\obj\Debug\net8.0\ProductInfra.AssemblyInfoInputs.cache
+C:\AppWeb\CarpetaFinal\eCommerce\ProductInfra\obj\Debug\net8.0\ProductInfra.AssemblyInfo.cs
+C:\AppWeb\CarpetaFinal\eCommerce\ProductInfra\obj\Debug\net8.0\ProductInfra.csproj.CoreCompileInputs.cache
+C:\AppWeb\CarpetaFinal\eCommerce\ProductInfra\obj\Debug\net8.0\ProductInfra.sourcelink.json
+C:\AppWeb\CarpetaFinal\eCommerce\ProductInfra\obj\Debug\net8.0\ProductI.4D7DCA8B.Up2Date
+C:\AppWeb\CarpetaFinal\eCommerce\ProductInfra\obj\Debug\net8.0\ProductInfra.dll
+C:\AppWeb\CarpetaFinal\eCommerce\ProductInfra\obj\Debug\net8.0\refint\ProductInfra.dll
+C:\AppWeb\CarpetaFinal\eCommerce\ProductInfra\obj\Debug\net8.0\ProductInfra.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\ProductInfra\obj\Debug\net8.0\ref\ProductInfra.dll

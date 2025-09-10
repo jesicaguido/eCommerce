@@ -1688,6 +1688,29 @@
             "rid": "win"
           }
         }
+      },
+      "OrderDomain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/OrderDomain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderDomain.dll": {}
+        }
+      },
+      "OrderInfra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "OrderDomain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OrderInfra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderInfra.dll": {}
+        }
       }
     }
   },
@@ -5147,12 +5170,24 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "OrderDomain/1.0.0": {
+      "type": "project",
+      "path": "../OrderDomain/OrderDomain.csproj",
+      "msbuildProject": "../OrderDomain/OrderDomain.csproj"
+    },
+    "OrderInfra/1.0.0": {
+      "type": "project",
+      "path": "../OrderInfra/OrderInfra.csproj",
+      "msbuildProject": "../OrderInfra/OrderInfra.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.8",
+      "OrderDomain >= 1.0.0",
+      "OrderInfra >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -5187,7 +5222,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\AppWeb\\CarpetaFinal\\eCommerce\\OrderDomain\\OrderDomain.csproj": {
+              "projectPath": "C:\\AppWeb\\CarpetaFinal\\eCommerce\\OrderDomain\\OrderDomain.csproj"
+            },
+            "C:\\AppWeb\\CarpetaFinal\\eCommerce\\OrderInfra\\OrderInfra.csproj": {
+              "projectPath": "C:\\AppWeb\\CarpetaFinal\\eCommerce\\OrderInfra\\OrderInfra.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -170,3 +170,7 @@ C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\bin\Debug\net8.0\ru\Microsoft.CodeA
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\bin\Debug\net8.0\CustomerDomain.dll
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\bin\Debug\net8.0\CustomerInfra.dll
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\bin\Debug\net8.0\CustomerDomain.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\bin\Debug\net8.0\CustomerInfra.pdb

@@ -19,4 +19,9 @@
     <Folder Include="Data\Migrations\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\OrderDomain\OrderDomain.csproj" />
+    <ProjectReference Include="..\OrderInfra\OrderInfra.csproj" />
+  </ItemGroup>
+
 </Project>
