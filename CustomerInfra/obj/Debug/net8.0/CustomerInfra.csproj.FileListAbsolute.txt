@@ -1,4 +1,5 @@
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\bin\Debug\net8.0\CustomerInfra.deps.json
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\bin\Debug\net8.0\CustomerInfra.runtimeconfig.json
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\bin\Debug\net8.0\CustomerInfra.dll
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\bin\Debug\net8.0\CustomerInfra.pdb
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\bin\Debug\net8.0\CustomerDomain.dll
@@ -13,4 +14,5 @@ C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\obj\Debug\net8.0\Customer.6067D65
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\obj\Debug\net8.0\CustomerInfra.dll
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\obj\Debug\net8.0\refint\CustomerInfra.dll
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\obj\Debug\net8.0\CustomerInfra.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\obj\Debug\net8.0\CustomerInfra.genruntimeconfig.cache
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerInfra\obj\Debug\net8.0\ref\CustomerInfra.dll

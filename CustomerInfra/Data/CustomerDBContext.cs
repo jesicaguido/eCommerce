@@ -1,4 +1,4 @@
-﻿using CustomerAPI.Entities;
+﻿using CustomerDomain.Models.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace CustomerAPI.Data

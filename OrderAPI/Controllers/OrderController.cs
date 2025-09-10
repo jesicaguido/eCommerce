@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using OrderAPI.Data;
-using OrderAPI.Entities;
+using OrderDomain.Models.Entities;
+
 
 namespace OrderAPI.Controllers
 {

@@ -1,4 +1,4 @@
-﻿namespace OrderAPI.Entities
+﻿namespace OrderDomain.Models.Entities
 {
     //Agregado
     public class Order

@@ -1,5 +1,6 @@
-﻿using OrderAPI.Entities;
+﻿
 using Microsoft.EntityFrameworkCore;
+using OrderDomain.Models.Entities;
 
 namespace OrderAPI.Data
 {

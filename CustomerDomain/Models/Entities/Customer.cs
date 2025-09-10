@@ -1,4 +1,4 @@
-﻿namespace CustomerDomain.Entities
+﻿namespace CustomerDomain.Models.Entities
 {
     public class Customer
     {

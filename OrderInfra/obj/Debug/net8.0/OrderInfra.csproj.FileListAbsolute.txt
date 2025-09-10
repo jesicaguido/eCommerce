@@ -1,4 +1,5 @@
 C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\bin\Debug\net8.0\OrderInfra.deps.json
+C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\bin\Debug\net8.0\OrderInfra.runtimeconfig.json
 C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\bin\Debug\net8.0\OrderInfra.dll
 C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\bin\Debug\net8.0\OrderInfra.pdb
 C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\bin\Debug\net8.0\OrderDomain.dll
@@ -13,4 +14,5 @@ C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\obj\Debug\net8.0\OrderInfra.csproj.U
 C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\obj\Debug\net8.0\OrderInfra.dll
 C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\obj\Debug\net8.0\refint\OrderInfra.dll
 C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\obj\Debug\net8.0\OrderInfra.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\obj\Debug\net8.0\OrderInfra.genruntimeconfig.cache
 C:\AppWeb\CarpetaFinal\eCommerce\OrderInfra\obj\Debug\net8.0\ref\OrderInfra.dll

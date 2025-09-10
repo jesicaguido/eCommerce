@@ -1,4 +1,4 @@
-﻿namespace ProductDomain.Entities
+﻿namespace OrderDomain.Models.Entities
 {
     public class Product
     {

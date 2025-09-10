@@ -1,4 +1,4 @@
-﻿namespace OrderDomain.Entities
+﻿namespace OrderDomain.Models.Entities
 {
     //value object
     public class Address

@@ -8,11 +8,11 @@ namespace CustomerAPI.Controllers
     [ApiController]
     public class CustomerController : ControllerBase
     {
-        private DBCustomer _DBCustomer;
+        private CustomerRepository _DBCustomer;
 
         public CustomerController()
         {
-            _DBCustomer = new DBCustomer();
+            _DBCustomer = new CustomerRepository();
         }
 
         [HttpGet]

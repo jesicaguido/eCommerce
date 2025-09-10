@@ -8,11 +8,11 @@ namespace ProductAPI.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        private DBProduct _dbProduct;
+        private ProductRepository _dbProduct;
 
         public ProductController()
         {
-            _dbProduct = new DBProduct();
+            _dbProduct = new ProductRepository();
         }   
         
         [HttpGet]

@@ -2,7 +2,7 @@
 
 namespace ProductAPI.Services
 {
-    public class DBProduct : IDBProduct
+    public class ProductRepository : IDBProduct
     {
         public bool AddProduct(string name)
         {
