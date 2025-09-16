@@ -1,39 +1,57 @@
-﻿using ProductAPI.Interfaces;
+﻿using Microsoft.EntityFrameworkCore;
+using ProductAPI.Interfaces;
+using ProductAPI.Data;
 using ProductDomain;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace ProductAPI.Services
 {
+    /// <summary>
+    /// Concrete repository implementation backed by an EF Core DbContext.
+    /// Provides asynchronous CRUD operations for the Product aggregate.
+    /// </summary>
     public class ProductRepository : IProductRepository
     {
-        public bool AddProduct(string name)
+        private readonly ProductDBContext _context;
+
+        public ProductRepository(ProductDBContext context)
         {
-            return true;
+            _context = context;
         }
 
-        public Task<IEnumerable<Product>> GetAllAsync()
+        public async Task<Product?> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _context.Products.FindAsync(id);
         }
 
-        public Task<Product> GetByIdAsync(int id)
+        public async Task<IEnumerable<Product>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await _context.Products.ToListAsync();
         }
 
-        public string GetProduct(int id)
+        public async Task<bool> ExistsByNameAsync(string name)
         {
-            return "Prouduct";
-        }
-      
-
-        public bool RemoveProduct(int id)
-        {
-            return true;
+            return await _context.Products.AnyAsync(p => p.Name == name);
         }
 
-        public bool UpdateProduct(int id)
+        public async Task<Product> AddAsync(Product entity)
         {
-            return true;
+            _context.Products.Add(entity);
+            await _context.SaveChangesAsync();
+            return entity;
+        }
+
+        public async Task UpdateAsync(Product entity)
+        {
+            _context.Products.Update(entity);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task DeleteAsync(Product entity)
+        {
+            _context.Products.Remove(entity);
+            await _context.SaveChangesAsync();
         }
     }
 }

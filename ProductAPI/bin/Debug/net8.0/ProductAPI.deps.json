@@ -1096,6 +1096,17 @@
           }
         }
       },
+      "ProductDomain/1.0.0": {
+        "dependencies": {
+          "ProductCore": "1.0.0"
+        },
+        "runtime": {
+          "ProductDomain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "ProductInfra/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.9",
@@ -1111,14 +1122,6 @@
       "ProductApplication/1.0.0.0": {
         "runtime": {
           "ProductApplication.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "ProductDomain.Reference/1.0.0.0": {
-        "runtime": {
-          "ProductDomain.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1732,17 +1735,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "ProductDomain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "ProductInfra/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "ProductApplication/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "ProductDomain.Reference/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ProductApplication\ProductApplication.csproj" />
+    <ProjectReference Include="..\ProductDomain\ProductDomain.csproj" />
     <ProjectReference Include="..\ProductInfra\ProductInfra.csproj" />
   </ItemGroup>
 
