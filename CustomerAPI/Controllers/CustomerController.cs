@@ -1,48 +1,80 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using CustomerAPI.Services;
+﻿using Microsoft.AspNetCore.Mvc;
+using CustomerApplication.DTO;
+using CustomerApplication.Services;
+using System.Threading.Tasks;
 
 namespace CustomerAPI.Controllers
 {
+    /// <summary>
+    /// API controller exposing CRUD endpoints for Customer entities.
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class CustomerController : ControllerBase
     {
-        private CustomerRepository _DBCustomer;
+        private readonly ICustomerService _customerService;
 
-        public CustomerController()
+        public CustomerController(ICustomerService customerService)
         {
-            _DBCustomer = new CustomerRepository();
+            _customerService = customerService;
         }
 
+        /// <summary>
+        /// Retrieves a customer by its identifier.
+        /// </summary>
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var result = await _customerService.GetByIdAsync(id);
+            if (!result.IsSuccess)
+                return NotFound(result.Error);
+            return Ok(result.Value);
+        }
+
+        /// <summary>
+        /// Retrieves all customers.
+        /// </summary>
         [HttpGet]
-        public IActionResult GetCustomers(int id)
+        public async Task<IActionResult> GetAll()
         {
-            // Code to get Customer from the database
-            return Ok(_DBCustomer.GetCustomer(id));
+            var result = await _customerService.GetAllAsync();
+            return Ok(result.Value);
         }
 
+        /// <summary>
+        /// Creates a new customer.
+        /// </summary>
         [HttpPost]
-        public IActionResult AddCustomer(string name)
+        public async Task<IActionResult> Create([FromBody] CreateCustomerDto request)
         {
-            // Code to add Customer to the database
-            return Ok();
+            var result = await _customerService.CreateAsync(request);
+            if (!result.IsSuccess)
+                return BadRequest(result.Error);
+            return CreatedAtAction(nameof(GetById), new { id = result.Value.Id }, result.Value);
         }
 
-        [HttpPut]
-        public IActionResult UpdateCustomer(int id)
+        /// <summary>
+        /// Updates an existing customer.
+        /// </summary>
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(int id, [FromBody] UpdateCustomerDto request)
         {
-            // Code to update Customer in the database
-            return Ok();
+            var result = await _customerService.UpdateAsync(id, request);
+            if (!result.IsSuccess)
+                return BadRequest(result.Error);
+            return Ok(result.Value);
         }
 
-        [HttpDelete]
-        public IActionResult RemoveCustomer(int id)
+        /// <summary>
+        /// Deletes a customer.
+        /// </summary>
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
         {
-            // Code to remove Customer from the database
-            return Ok();
+            var result = await _customerService.DeleteAsync(id);
+            if (!result.IsSuccess)
+                return NotFound(result.Error);
+            return NoContent();
         }
-
-
     }
 }

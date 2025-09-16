@@ -3,38 +3,38 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CustomerAPI.Data
 {
+    /// <summary>
+    /// Entity Framework Core DbContext for the Customer microservice.
+    /// Defines the Customers table and configures basic constraints.
+    /// </summary>
     public class CustomerDBContext : DbContext
     {
-        //fields
-        private string _maxLength = "100";
-
-        //constructors
-        public CustomerDBContext(DbContextOptions<CustomerDBContext> options) : base(options)
+        public CustomerDBContext(DbContextOptions<CustomerDBContext> options)
+            : base(options)
         {
         }
 
-        //properties
-        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Customer> Customers { get; set; } = null!;
 
-        //methods
-        override protected void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //Configuraciones avanzadas de las entidades
-           
             modelBuilder.Entity<Customer>(entity =>
             {
                 entity.Property(e => e.Name)
                       .IsRequired()
-                      .HasMaxLength(int.Parse(_maxLength));
+                      .HasMaxLength(100);
+
                 entity.Property(e => e.Email)
                       .IsRequired()
-                      .HasMaxLength(int.Parse(_maxLength));
-                entity.Property(e => e.Direccion)
-                      .IsRequired()
-                      .HasMaxLength(int.Parse(_maxLength));
+                      .HasMaxLength(100);
+
+                // Ensure email uniqueness at the database level
+                entity.HasIndex(e => e.Email).IsUnique();
             });
             base.OnModelCreating(modelBuilder);
         }
+    }
+}
     }
     
 }
