@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProductAPI.Services;
+using ProductApplication.DTO;
+using ProductApplication.Services;
 
 namespace ProductAPI.Controllers
 {
@@ -8,42 +10,61 @@ namespace ProductAPI.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        private ProductRepository _dbProduct;
+        private readonly IProductService _productService;
 
-        public ProductController()
+        public ProductController(IProductService productService)
         {
-            _dbProduct = new ProductRepository();
-        }   
-        
-        [HttpGet]
-        public IActionResult GetProducts(int id)
-        {
-            // Code to get product from the database
-            return Ok(_dbProduct.GetProduct(id));
+            _productService = productService;
         }
 
+        // GET api/product/5
+        [HttpGet("{id:int}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var result = await _productService.GetByIdAsync(id);
+
+            if (!result.IsSuccess)
+                return NotFound(result.Error);
+
+            return Ok(result.Value);
+        }
+
+        // POST api/product
         [HttpPost]
-        public IActionResult AddProduct(string name)
+        public async Task<IActionResult> Create([FromBody] CreateProductDto request)
         {
-            // Code to add product to the database
-            return Ok();
-        }
-        
-        [HttpPut]
-        public IActionResult UpdateProduct(int id)
-        {
-            // Code to update product in the database
-            return Ok();
+            var result = await _productService.CreateAsync(request);
+
+            if (!result.IsSuccess)
+                return BadRequest(result.Error);
+
+            return CreatedAtAction(nameof(GetById), new { id = result.Value.Id }, result.Value);
         }
 
-        [HttpDelete]
-        public IActionResult RemoveProduct(int id)
+        // PUT api/product/5
+        [HttpPut("{id:int}")]
+        public async Task<IActionResult> Update(int id, [FromBody] UpdateProductDto request)
         {
-            // Code to remove product from the database
-            return Ok();
+            var result = await _productService.UpdateAsync(id, request);
+
+            if (!result.IsSuccess)
+                return BadRequest(result.Error);
+
+            return Ok(result.Value);
         }
 
-      
+        // DELETE api/product/5
+        [HttpDelete("{id:int}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var result = await _productService.DeleteAsync(id);
+
+            if (!result.IsSuccess)
+                return NotFound(result.Error);
+
+            return NoContent();
+        }
+
 
     }
 }

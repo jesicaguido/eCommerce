@@ -18,3 +18,5 @@ C:\AppWeb\CarpetaFinal\eCommerce\ProductInfra\obj\Debug\net8.0\ProductInfra.genr
 C:\AppWeb\CarpetaFinal\eCommerce\ProductInfra\obj\Debug\net8.0\ref\ProductInfra.dll
 C:\AppWeb\CarpetaFinal\eCommerce\ProductInfra\bin\Debug\net8.0\ProductCore.dll
 C:\AppWeb\CarpetaFinal\eCommerce\ProductInfra\bin\Debug\net8.0\ProductCore.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\ProductInfra\bin\Debug\net8.0\ProductApplication.dll
+C:\AppWeb\CarpetaFinal\eCommerce\ProductInfra\bin\Debug\net8.0\ProductApplication.pdb

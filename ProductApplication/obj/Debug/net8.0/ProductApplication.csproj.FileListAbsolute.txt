@@ -1,0 +1,16 @@
+C:\AppWeb\CarpetaFinal\eCommerce\ProductApplication\bin\Debug\net8.0\ProductApplication.deps.json
+C:\AppWeb\CarpetaFinal\eCommerce\ProductApplication\bin\Debug\net8.0\ProductApplication.dll
+C:\AppWeb\CarpetaFinal\eCommerce\ProductApplication\bin\Debug\net8.0\ProductApplication.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\ProductApplication\bin\Debug\net8.0\ProductDomain.dll
+C:\AppWeb\CarpetaFinal\eCommerce\ProductApplication\bin\Debug\net8.0\ProductDomain.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\ProductApplication\obj\Debug\net8.0\ProductApplication.csproj.AssemblyReference.cache
+C:\AppWeb\CarpetaFinal\eCommerce\ProductApplication\obj\Debug\net8.0\ProductApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\AppWeb\CarpetaFinal\eCommerce\ProductApplication\obj\Debug\net8.0\ProductApplication.AssemblyInfoInputs.cache
+C:\AppWeb\CarpetaFinal\eCommerce\ProductApplication\obj\Debug\net8.0\ProductApplication.AssemblyInfo.cs
+C:\AppWeb\CarpetaFinal\eCommerce\ProductApplication\obj\Debug\net8.0\ProductApplication.csproj.CoreCompileInputs.cache
+C:\AppWeb\CarpetaFinal\eCommerce\ProductApplication\obj\Debug\net8.0\ProductApplication.sourcelink.json
+C:\AppWeb\CarpetaFinal\eCommerce\ProductApplication\obj\Debug\net8.0\ProductA.A8227FD1.Up2Date
+C:\AppWeb\CarpetaFinal\eCommerce\ProductApplication\obj\Debug\net8.0\ProductApplication.dll
+C:\AppWeb\CarpetaFinal\eCommerce\ProductApplication\obj\Debug\net8.0\refint\ProductApplication.dll
+C:\AppWeb\CarpetaFinal\eCommerce\ProductApplication\obj\Debug\net8.0\ProductApplication.pdb
+C:\AppWeb\CarpetaFinal\eCommerce\ProductApplication\obj\Debug\net8.0\ref\ProductApplication.dll

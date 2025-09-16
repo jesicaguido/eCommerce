@@ -1,4 +1,5 @@
 ﻿using ProductAPI.Interfaces;
+using ProductDomain;
 
 namespace ProductAPI.Services
 {
@@ -7,6 +8,16 @@ namespace ProductAPI.Services
         public bool AddProduct(string name)
         {
             return true;
+        }
+
+        public Task<IEnumerable<Product>> GetAllAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Product> GetByIdAsync(int id)
+        {
+            throw new NotImplementedException();
         }
 
         public string GetProduct(int id)
