@@ -1,5 +1,5 @@
-﻿using CustomerDomain.Models.Entities;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using CustomerDomain;
 
 namespace CustomerAPI.Data
 {
@@ -34,7 +34,4 @@ namespace CustomerAPI.Data
             base.OnModelCreating(modelBuilder);
         }
     }
-}
-    }
-    
 }

@@ -10,10 +10,29 @@ namespace CustomerApplication.Services
     /// </summary>
     public interface ICustomerService
     {
+        /// <summary>
+        /// Gets a customer by identifier.
+        /// </summary>
         Task<CustomerResult<Customer>> GetByIdAsync(int id);
+
+        /// <summary>
+        /// Gets all customers in the system.
+        /// </summary>
         Task<CustomerResult<IEnumerable<Customer>>> GetAllAsync();
+
+        /// <summary>
+        /// Creates a new customer.
+        /// </summary>
         Task<CustomerResult<Customer>> CreateAsync(CreateCustomerDto dto);
+
+        /// <summary>
+        /// Updates an existing customer.
+        /// </summary>
         Task<CustomerResult<Customer>> UpdateAsync(int id, UpdateCustomerDto dto);
+
+        /// <summary>
+        /// Deletes a customer.
+        /// </summary>
         Task<CustomerResult<bool>> DeleteAsync(int id);
     }
 }

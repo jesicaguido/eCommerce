@@ -155,12 +155,10 @@ C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\bin\Debug\net8.0\runtimes\win\lib\n
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\bin\Debug\net8.0\CustomerCore.dll
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\bin\Debug\net8.0\CustomerDomain.dll
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\bin\Debug\net8.0\CustomerInfra.dll
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\bin\Debug\net8.0\CustomerDomain.pdb
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\bin\Debug\net8.0\CustomerInfra.pdb
-C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\bin\Debug\net8.0\CustomerCore.pdb
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -176,3 +174,5 @@ C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\obj\Debug\net8.0\refint\CustomerAPI
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\obj\Debug\net8.0\CustomerAPI.pdb
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\obj\Debug\net8.0\CustomerAPI.genruntimeconfig.cache
 C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\obj\Debug\net8.0\ref\CustomerAPI.dll
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\bin\Debug\net8.0\CustomerApplication.dll
+C:\AppWeb\CarpetaFinal\eCommerce\CustomerAPI\bin\Debug\net8.0\CustomerApplication.pdb

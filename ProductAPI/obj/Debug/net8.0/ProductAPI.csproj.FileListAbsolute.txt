@@ -174,7 +174,5 @@ C:\AppWeb\CarpetaFinal\eCommerce\ProductAPI\obj\Debug\net8.0\refint\ProductAPI.d
 C:\AppWeb\CarpetaFinal\eCommerce\ProductAPI\obj\Debug\net8.0\ProductAPI.pdb
 C:\AppWeb\CarpetaFinal\eCommerce\ProductAPI\obj\Debug\net8.0\ProductAPI.genruntimeconfig.cache
 C:\AppWeb\CarpetaFinal\eCommerce\ProductAPI\obj\Debug\net8.0\ref\ProductAPI.dll
-C:\AppWeb\CarpetaFinal\eCommerce\ProductAPI\bin\Debug\net8.0\ProductCore.dll
-C:\AppWeb\CarpetaFinal\eCommerce\ProductAPI\bin\Debug\net8.0\ProductCore.pdb
 C:\AppWeb\CarpetaFinal\eCommerce\ProductAPI\bin\Debug\net8.0\ProductApplication.dll
 C:\AppWeb\CarpetaFinal\eCommerce\ProductAPI\bin\Debug\net8.0\ProductApplication.pdb

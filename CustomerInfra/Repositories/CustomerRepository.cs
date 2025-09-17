@@ -1,10 +1,9 @@
-﻿using CustomerAPI.Data;
+﻿using Microsoft.EntityFrameworkCore;
 using CustomerAPI.Interfaces;
+using CustomerAPI.Data;
 using CustomerDomain;
-using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using System.Xml.Linq;
 
 namespace CustomerAPI.Services
 {

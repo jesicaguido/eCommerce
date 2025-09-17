@@ -7,30 +7,14 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "CustomerDomain/1.0.0": {
-        "dependencies": {
-          "CustomerCore": "1.0.0"
-        },
         "runtime": {
           "CustomerDomain.dll": {}
-        }
-      },
-      "CustomerCore/1.0.0": {
-        "runtime": {
-          "CustomerCore.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
         }
       }
     }
   },
   "libraries": {
     "CustomerDomain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "CustomerCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

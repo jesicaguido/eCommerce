@@ -8,13 +8,13 @@
     ".NETCoreApp,Version=v8.0": {
       "ProductApplication/1.0.0": {
         "dependencies": {
-          "ProductDomain": "1.0.0.0"
+          "ProductDomain": "1.0.0"
         },
         "runtime": {
           "ProductApplication.dll": {}
         }
       },
-      "ProductDomain/1.0.0.0": {
+      "ProductDomain/1.0.0": {
         "runtime": {
           "ProductDomain.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -30,8 +30,8 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ProductDomain/1.0.0.0": {
-      "type": "reference",
+    "ProductDomain/1.0.0": {
+      "type": "project",
       "serviceable": false,
       "sha512": ""
     }
